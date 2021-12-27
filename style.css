@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../First\ Test/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#result {
+  display: none;
+  margin: 10px;
+}
+#myCanvas {
+  border: 2px solid black;
+  margin-top: 5px;
+  background-color: grey;
+}
+#getradius {
+  margin-bottom: 5px;
+}
